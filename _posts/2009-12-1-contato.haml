@@ -1,0 +1,18 @@
+---
+layout: default
+title: Contato
+---
+%h3 Entre em contato conosco
+%form#contato{ :action => 'http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho/contacts', :method => 'post' }
+  %fieldset
+    %label Nome:
+    %input.text{ :name => 'nome' }
+    %label E-mail:
+    %input.text{ :name => 'email' }
+    %label Telefone:
+    %input.text{ :name => 'telefone' }
+    %label Mensagem:
+    %textarea.text{ :name => 'mensagem' }
+    %br
+    %br
+    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }  

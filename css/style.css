@@ -1,0 +1,33 @@
+body { background: #f6fbff; font-family: georgia, arial, helvetica; }
+
+#container_navigation { min-width: 980px;  }
+#navigation { height: 62px; text-align: center; background: url(../images/bg_navigation.jpg) top center no-repeat; }
+#navigation ul.menu { margin: 0px; height: 25px; padding: 25px 0px 0px 0px;  }
+#navigation ul.menu li { display: inline; margin: 0px 15px; font-size: 15px; text-transform:uppercase;}
+
+#container_header_featured_content { background: #e0f0fe url(../images/bg_container_header.jpg) top center repeat-x; min-width: 980px; }
+#container_pre_header_featured_content { background: #e0f0fe url(../images/bg_pre_header.jpg) top center repeat-x;}
+#header { text-align: center; height: 235px; background: #e0f0fe url(../images/bg_header.jpg) top center repeat-x; }
+#logo h1 a { margin-left: -15px; display: block; width: 330px; height: 215px; background: url(../images/logo_xiv_congresso_ortopedia.png) no-repeat center top; }
+#featured { height: 318px; }
+#featured img.correction { margin-left: -10px; }
+#the_selected_city {  }
+#content { min-height: 280px; }
+#content h2 { margin-top: 30px; margin-bottom: 10px; }
+#content a { }
+#content a:link { color: #333333; text-decoration: none; }
+#content a:visited { color: #999999; }
+#content a:hover, a:focus { color: #000000; text-decoration: underline; }
+#content * > .margin_aligned { margin-left: -10px; }
+#new_registration .chamada_inscricoes { margin-top: 30px; margin-left: -20px; display: block; width: 330px; height: 230px; background: url(../images/chamada_inscricao.gif) no-repeat center top; }
+#date_where .informacoes { color: #ff9c00;  margin-top: 100px; margin-left: -10px; display: block; width: 300px; height: 50px; background: url(../images/data_local.gif) no-repeat center top; }
+
+
+#footer { height: 210px; padding-top: 30px; text-align: center; background: #ffffff; }
+#footer * h3 { margin-bottom: 5px;}
+#promocao a.sbot { padding-left: 20px; display: block; width: 110px; height: 120px; background: url(../images/sbot.jpg) no-repeat center top; }
+#realizacao a.sbotrn { padding-left: 5px; display: block; width: 130px; height: 120px; background: url(../images/sbotrn.jpg) no-repeat center top; }
+#apoio a.prefeitura_natal { padding-left: 65px; float: left; display: block; width: 125px; height: 120px; background: url(../images/prefeitura_natal.jpg) no-repeat center top; }
+#apoio a.governo_rn { float: left; display: block; width: 160px; height: 120px; background: url(../images/governo_rn.jpg) no-repeat center top; }
+#organizacao a.ideias { padding-left: 40px; display: block; width: 180px; height: 120px; background: url(../images/ideias_eventos.jpg) no-repeat center top; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
