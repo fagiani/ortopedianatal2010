@@ -15,14 +15,14 @@ title: Início
           %a.notext{ :href => "/" }
             XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia
       #time_remain.grid_4
-        %span
-          Faltam
-        %br
-        %span#days_remain
-          0 Dias
-        %br
-        %span
-          para o evento
+        %div.informacoes
+          %span.remain_text_flash
+            Faltam
+          %span#days_remain.remain_days_flash
+            0 Dias
+          %br
+          %span.remain_text_flash
+            para o evento
     #featured.container_12
       #the_selected_city.grid_12
         = image_tag "featured_natal.jpg", :class => 'correction', :alt => "Agora é a vez de Natal!"
@@ -38,7 +38,7 @@ title: Início
             Saiba Mais
       #last_notices.grid_4
         %h2.margin_aligned
-          ÚLTIMAS NOTÍCIAS
+          LOCAL
       #new_registration.grid_4
         %a.notext.chamada_inscricoes{ :href => "/inscricao" }
           Ainda não se inscreveu? Clique Aqui! E não perca tempo.
