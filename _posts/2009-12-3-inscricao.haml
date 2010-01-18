@@ -3,9 +3,140 @@ layout: interna
 title: Inscrição
 ---
 %h1
-    Inscrição
-%p
-    Texto falando sobre a inscrição
+  Inscrição
+%ul.menu
+  %li
+    %a{ :href => '#procedimentos'}
+      Procedimentos para inscrição
+  %li
+    %a{ :href => '#empenho'}
+      Procedimentos de inscrição via empenho
+  %li
+    %a{ :href => '#taxas'}
+      Taxas de inscrição
+  %li
+    %a{ :href => '#desistencia'}
+      Desistência e Reembolso
+  %li
+    %a{ :href => '#inscricao'}
+      Inscrição
+%hr
 
-%h3{ :id => "inscricao" } Inscrição
-%iframe{:src => "http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho.iframe?css=http://cidtnatal2010.eventos.participe.de/css/participede.css", :width => '100%', :height => '900px', :scrolling => 'no', :frameborder => "0"}      
+%h3{ :id => "procedimentos"} Procedimentos para inscrição
+%p
+  %ul
+    %li
+      %span As inscrições deverão ser efetuadas, através deste site até 12/04/10. Após esta data, somente no local do evento;
+    %li
+      %span Residentes e Acadêmicos de Medicina deverão enviar a declaração de categoria para o e-mail:
+      %a.mail{ :href => "mailto:ortopedia2010@ideiaseventos.com.br" }
+        %strong ortopedia2010@ideiaseventos.com.br
+    %li
+      %span As inscrições realizadas no dia do evento estarão condicionadas à disponibilidade de vagas.
+    %li
+      %span
+        O não envio ou apresentação da comprovação de categoria de
+        %strong Residente ou Acadêmicos de Medicina
+        , será cobrado a diferença no credenciamento sobre o valor da taxa como
+        %strong “não sócio da SBOT”
+        , correspondente ao valor no dia do evento;
+    %li
+      %span Por determinação do CFM (Resolução 1718/06) profissionais não médicos não podem participar do congresso; 
+    %li
+      %span Por determinação da ANVISA os acompanhantes não podem transitar na área de exposição do congresso;
+    %li
+      %span Acompanhantes terão direito a participar da solenidade e coquetel de abertura.
+
+%h3{ :id => "empenho"} Procedimento de inscrição via empenho:
+%p
+  %ol
+    %li
+      O empenho deverá conter as seguintes informações:
+      %ul
+        %li
+          %span Nome completo do profissional que irá participar do evento;
+        %li
+          %span Dados da instituição pagante (nome da instituição, CNPJ, Inscrição Estadual ou Municipal, endereço, bairro, cidade, Estado e CEP);
+        %li
+          %span No documento é importante conter o nome, telefone e e-mail do responsável pela emissão do empenho, para contato e envio da nota fiscal via correio;
+    %li
+      O Empenho deverá ser enviado para a Secretaria Executiva do evento de uma das seguintes formas:
+      %ul
+        %li
+          %span Pelo email:
+          %a.mail{ :href => "mailto:ortopedia2010@ideiaseventos.com.br" }
+            %strong ortopedia2010@ideiaseventos.com.br
+        %li
+          %span Por fax: (84) 3211-4358
+        %li
+          %span Ou postado para o endereço da Idéias Eventos e Promoções LTDA.
+    %li
+      É importante lembrar que o empenho deverá ser enviado até o dia 12/04/2010, para que as inscrições sejam liberadas no dia do evento.
+    %br
+    %li
+      Dados para o empenho:
+      %p
+        %strong Favorecido:
+        Sociedade Brasileira de Ortopedia e Traumatologia – SBOT/RN
+        %br
+        %strong CNPJ:
+        02760891/0001-00
+        %br
+        %strong Endereço:
+        Rua Coronel Joaquim Manoel, 717 Sala 515 Petrópolis Centro Odonto Mèdico - Natal/RN- Cep: 59012-330
+    %li
+      Dados bancários:
+      %p
+        %strong Banco:
+        Caixa Econômica Federal 
+        %br
+        %strong Agência:
+        0759
+        %br
+        %strong Conta Corrente:
+        00000468-7
+        %br
+        %strong Cedente:
+        SBOT - RN
+    %li
+      O empenho será considerado documento definitivo para inscrição do profissional no evento.
+%h3{ :id => "taxas"} Taxas de inscrição:
+%p
+  %ul
+    %li
+      %span As diferentes categorias e datas de pagamento devem ser observadas!
+    %li  
+      %span Pagamento via empenho, considerar valores do dia do evento;
+      %a{ :href => '#{inscricao}' } Verificar valores.
+    %li  
+      %span O pagamento de sua inscrição deverá ser feita por boleto bancário, emitidos no site, ou por cartões de créditos.
+
+%h3{ :id => "desistencia" } Desistência e Reembolso
+%p
+  As devoluções seguirão os seguintes critérios:
+%table#tabela
+  %tr
+    %th{ :scope => "col"}  Justificativa*
+    %th{ :scope => "col"}  Prazo para Solicitação
+    %th{ :scope => "col"}  Valor a ser reembolsado
+  %tr
+    %td Sem justificativa
+    %td até 30 (trinta) dias antes do início do congresso
+    %td
+      %strong 50% do valor pago
+  %tr
+    %td Problemas de saúde
+    %td Sem prazo limite
+    %td
+      %strong 80% do valor pago
+  %tr
+    %td Duplicidade de pagamento
+    %td Sem prazo limite
+    %td
+      %strong 100% do valor pago
+%p 
+  Conforme os critérios citados, a solicitação de justificativa formal de desistência de participação no evento, deverá ser enviada para
+  %a.mail{ :href => "mailto:ortopedia2010@ideiaseventos.com.br" }
+    %strong ortopedia2010@ideiaseventos.com.br
+%p O reembolso será efetuada até 45 dias após a realização do evento.
+
