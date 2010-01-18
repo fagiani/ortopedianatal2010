@@ -1,4 +1,9 @@
-body { background: #f6fbff; font-family: georgia, arial, helvetica; }
+body {line-height:1;font-size:62.5%;font-family: Arial, Helvetica, Verdana, sans-serif;color:#575757; background: #f6fbff; }
+h1, h2, h3, h4, h5, h6 { color:#0078b0; }
+h2 {font-weight:bold;font-size:2.719em;}
+h3 {font-size:2.2em;}
+p {font-size:16px;margin-bottom:16px;}
+a {color: #f6ae19 }
 
 #container_navigation { min-width: 980px;  }
 #navigation { height: 62px; text-align: center; background: url(../images/bg_navigation.jpg) top center no-repeat; }
@@ -12,11 +17,12 @@ body { background: #f6fbff; font-family: georgia, arial, helvetica; }
 #logo h1 a { margin-left: -15px; display: block; width: 330px; height: 215px; background: url(../images/logo_xiv_congresso_ortopedia.png) no-repeat center top; }
 #featured { height: 318px; }
 #featured img.correction { margin-left: -10px; }
-#the_selected_city {  }
 #content { min-height: 280px; padding-bottom: 20px;}
 #content h2 { margin-top: 30px; margin-bottom: 10px; }
-#content h1 { color: #FFCC33; font-size: 36px; }
-#content a { }
+#content h3 { color: #f6b23e; }
+#content li a.mail { color: #ff9c00; }
+#content li span { color: #575757; list-style-type: none; font-size: 13px;}
+#content ul.menu li a { font-size:14px; color: #575757; }
 #content a:link { color: #333333; text-decoration: none; }
 #content a:visited { color: #999999; }
 #content a:hover, a:focus { color: #000000; text-decoration: underline; }
@@ -37,17 +43,18 @@ span.remain_text_flash { color: #F99D00; font-size: 22px;  line-height: 0.5em; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 /* Pages */
-.interna #content p, .interna #content strong { font-size: 16px !important; line-height: 28px !important; }
+.interna #content p, .interna #content strong { font-size: 13px !important; line-height: 16px !important; }
 .interna #content ol li { font-size: 13px !important; }
 .interna #content h2, .interna #content h3 { margin-bottom:10px !important; }
 .interna #content ul { margin-bottom: 20px; }
 .interna #content ul li {list-style:inside disc;color:#fac519;line-height:16px;font-size:12px;}
 .interna #content ul li strong {color:#fac519}
 .interna #content li p {color:#575757; font-size:12px;}
-.interna a { color: #0078b0; }
+.interna a { color: #f89c00; }
+.interna #content a #local img { padding-right: 20px; }
 
 /* Tabelas */
-#tabela{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+#tabela{ font-size: 12px; width: 700px; text-align: left; border-collapse: collapse; }
 #tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8;
             border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }

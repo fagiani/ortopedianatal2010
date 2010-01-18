@@ -55,7 +55,7 @@ sIFR.replace(kozuka_el, {
 sIFR.replace(officina_bold, {
   selector: '#content h1',
   css: [ 
-    '.sIFR-root { font-size: 36px; color: #FFCC33; }'
+    '.sIFR-root { font-size: 36px; color: #f89c01; }'
   ],
   wmode: 'transparent',
   tuneHeight: '-7',
