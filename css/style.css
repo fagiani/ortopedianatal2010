@@ -1,9 +1,8 @@
-body {line-height:1;font-size:62.5%;font-family: Arial, Helvetica, Verdana, sans-serif;color:#575757; background: url(../images/bg/background.png) repeat-x; }
+body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #43484c; background: url(../images/bg/background.png) repeat-x; }
 h1, h2, h3, h4, h5, h6 { color:#0078b0; }
-h2 {font-weight:bold;font-size:2.719em;}
-h3 {font-size:2.2em;}
-p {font-size:16px;margin-bottom:16px;}
-a {color: #f6ae19 }
+h2 { font-size: 22px; }
+p { font-size:16px; margin-bottom:16px; }
+a { color: #f6ae19 }
 
 .flowers { height: 600px; background: url(../images/bg/bg-flowers.png) no-repeat center top; }
 .header { height: 81px; background: url(../images/bg/bg-header.png) repeat-x top; }
@@ -11,10 +10,14 @@ a {color: #f6ae19 }
 #menu ul li { display: inline; padding-right: 8px;}
 #menu li a { font-size: 11px; color: #0078B0; text-transform: uppercase;}
 .header span { color: #ff9c00; font-size: 23px;}
-.header p { font-size: 19px; margin-bottom: 2px; }
-.header p strong { font-size: 30px;}
+.header p { font-size: 19px; }
 #sides { margin-left: 10px; padding-top: 114px; text-align: center;}
+#sides span #left { padding-top: 110px; }
+.header #sides span #left strong { font-size: 30px; }
 #logo { padding-top: 50px; text-align: center; }
+.content #banner img { padding-bottom: 40px; padding-top: 40px; }
+.content #inscricoes { text-align: right; }
+.content p { text-align: justify; }
 
 /* Pages */
 .interna #content p, .interna #content strong { font-size: 13px !important; line-height: 16px !important; }

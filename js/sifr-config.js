@@ -17,3 +17,15 @@ sIFR.replace(kozuka_el, {
   tuneWidth: '15',
   sharpness: '-200' 
 });
+sIFR.replace(officina_bold, { 
+  selector: '#sides span',
+  css: [ 
+    '.sIFR-root { font-size: 21px; color: #F99D00; }' 
+  ],
+  wmode: 'transparent',
+  tuneHeight: '0',
+  sharpness: '-100',
+  forceSingleLine: 'true', 
+  offsetLeft: '7'
+});
+
