@@ -1,46 +1,20 @@
-body {line-height:1;font-size:62.5%;font-family: Arial, Helvetica, Verdana, sans-serif;color:#575757; background: #f6fbff; }
+body {line-height:1;font-size:62.5%;font-family: Arial, Helvetica, Verdana, sans-serif;color:#575757; background: url(../images/bg/background.png) repeat-x; }
 h1, h2, h3, h4, h5, h6 { color:#0078b0; }
 h2 {font-weight:bold;font-size:2.719em;}
 h3 {font-size:2.2em;}
 p {font-size:16px;margin-bottom:16px;}
 a {color: #f6ae19 }
 
-#container_navigation { min-width: 980px;  }
-#navigation { height: 62px; text-align: center; background: url(../images/bg_navigation.jpg) top center no-repeat; }
-#navigation ul.menu { margin: 0px; height: 25px; padding: 25px 0px 0px 0px;  }
-#navigation ul.menu li { display: inline; margin: 0px 13px; font-size: 14px; text-transform: uppercase; color: #0078b0 !important;}
-
-#container_header_featured_content { background: #E0F0FE url(../images/bg_container_header.jpg) top center repeat-x; }
-#container_pre_header_featured_content { background: url(../images/bg_pre_header.jpg) transparent top center no-repeat; }
-#container_pre_header_featured_content.interna { background: url(../images/bg_pre_header_interna.jpg) transparent top center no-repeat; }
-#header { text-align: center; height: 235px; background: #E0F0FE url(../images/bg_header.jpg) top center repeat-x; }
-#logo h1 a { margin-left: -15px; display: block; width: 330px; height: 215px; background: url(../images/logo_xiv_congresso_ortopedia.png) no-repeat center top; }
-#featured { height: 318px; }
-#featured img.correction { margin-left: -10px; }
-#content { min-height: 280px; padding-bottom: 20px;}
-#content h2 { margin-top: 30px; margin-bottom: 10px; }
-#content h3 { color: #f6b23e; }
-#content li a.mail { color: #ff9c00; }
-#content li span { color: #575757; list-style-type: none; font-size: 13px;}
-#content ul.menu li a { font-size:14px; color: #575757; }
-#content a:link { color: #333333; text-decoration: none; }
-#content a:visited { color: #999999; }
-#content a:hover, a:focus { color: #000000; text-decoration: underline; }
-#content * > .margin_aligned { margin-left: -10px; }
-#new_registration .chamada_inscricoes { margin-top: 30px; margin-left: -20px; display: block; width: 330px; height: 230px; background: url(../images/chamada_inscricao.gif) no-repeat center top; }
-#date_where .informacoes { color: #ff9c00;  margin-top: 100px; margin-left: -10px; display: block; width: 300px; height: 50px; background: url(../images/data_local.gif) no-repeat center top; }
-#time_remain .informacoes { color: #ff9c00;  margin-top: 100px; display: block; }
-span.remain_days_flash { color: #FFCC33; font-size: 36px; line-height: 0.5em;}
-span.remain_text_flash { color: #F99D00; font-size: 22px;  line-height: 0.5em; }
-
-#footer { height: 210px; padding-top: 30px; text-align: center; background: #ffffff; }
-#footer * h3 { margin-bottom: 5px; font-size: 15px; color: #0078b0; text-align: center; font-weight: normal; }
-#promocao a.sbot { padding-left: 20px; display: block; width: 110px; height: 120px; background: url(../images/sbot.jpg) no-repeat center top; }
-#realizacao a.sbotrn { padding-left: 5px; display: block; width: 130px; height: 120px; background: url(../images/sbotrn.jpg) no-repeat center top; }
-#apoio a.prefeitura_natal { padding-left: 65px; float: left; display: block; width: 125px; height: 120px; background: url(../images/prefeitura_natal.jpg) no-repeat center top; }
-#apoio a.governo_rn { float: left; display: block; width: 160px; height: 120px; background: url(../images/governo_rn.jpg) no-repeat center top; }
-#organizacao a.ideias { padding-left: 40px; display: block; width: 180px; height: 120px; background: url(../images/ideias_eventos.jpg) no-repeat center top; }
-.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.flowers { height: 600px; background: url(../images/bg/bg-flowers.png) no-repeat center top; }
+.header { height: 81px; background: url(../images/bg/bg-header.png) repeat-x top; }
+#menu ul { padding-top: 25px;}
+#menu ul li { display: inline; padding-right: 8px;}
+#menu li a { font-size: 11px; color: #0078B0; text-transform: uppercase;}
+.header span { color: #ff9c00; font-size: 23px;}
+.header p { font-size: 19px; margin-bottom: 2px; }
+.header p strong { font-size: 30px;}
+#sides { margin-left: 10px; padding-top: 114px; text-align: center;}
+#logo { padding-top: 50px; text-align: center; }
 
 /* Pages */
 .interna #content p, .interna #content strong { font-size: 13px !important; line-height: 16px !important; }
@@ -51,7 +25,7 @@ span.remain_text_flash { color: #F99D00; font-size: 22px;  line-height: 0.5em; }
 .interna #content ul li strong {color:#fac519}
 .interna #content li p {color:#575757; font-size:12px;}
 .interna a { color: #f89c00; }
-.interna #content a #local img { padding-right: 20px; }
+.interna #content #local img { padding-right: 20px; clear: both; }
 
 /* Tabelas */
 #tabela{ font-size: 12px; width: 700px; text-align: left; border-collapse: collapse; }
