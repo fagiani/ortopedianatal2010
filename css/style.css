@@ -3,21 +3,26 @@ h1, h2, h3, h4, h5, h6 { color:#0078b0; }
 h2 { font-size: 22px; }
 p { font-size:16px; margin-bottom:16px; }
 a { color: #f6ae19 }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
-.flowers { height: 600px; background: url(../images/bg/bg-flowers.png) no-repeat center top; }
+.flowers { height: 600px; min-height: 1100px;  background: url(../images/bg/bg-flowers.png) no-repeat center top; }
 .header { height: 81px; background: url(../images/bg/bg-header.png) repeat-x top; }
 #menu ul { padding-top: 25px;}
 #menu ul li { display: inline; padding-right: 8px;}
 #menu li a { font-size: 11px; color: #0078B0; text-transform: uppercase;}
 .header span { color: #ff9c00; font-size: 23px;}
 .header p { font-size: 19px; }
-#sides { margin-left: 10px; padding-top: 114px; text-align: center;}
-#sides span #left { padding-top: 110px; }
-.header #sides span #left strong { font-size: 30px; }
-#logo { padding-top: 50px; text-align: center; }
-.content #banner img { padding-bottom: 40px; padding-top: 40px; }
+#header-page { padding-bottom: 40px; text-align: center; }
+#header-page #sides { padding-top: 114px; }
+#header-page #sides span #left { padding-top: 110px; }
+#header-page #sides span #left strong { font-size: 30px; }
+#header-page #logo { padding-top: 50px; text-align: center; }
+.content #banner img { padding-bottom: 40px; }
 .content #inscricoes { text-align: right; }
 .content p { text-align: justify; }
+.footer { height: 120px; background: #FFFFFF none repeat scroll 0 0; padding-top: 20px; text-align: center;}
+.footer #promocao { margin-left: 10px;  }
+.footer #apoio img { padding: 0px 12px; height: 69px;}
 
 /* Pages */
 .interna #content p, .interna #content strong { font-size: 13px !important; line-height: 16px !important; }

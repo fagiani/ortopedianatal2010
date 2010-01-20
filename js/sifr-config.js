@@ -18,7 +18,7 @@ sIFR.replace(kozuka_el, {
   sharpness: '-200' 
 });
 sIFR.replace(officina_bold, { 
-  selector: '#sides span',
+  selector: 'kkkkk',
   css: [ 
     '.sIFR-root { font-size: 21px; color: #F99D00; }' 
   ],
