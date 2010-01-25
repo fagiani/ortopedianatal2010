@@ -114,22 +114,22 @@ title: Inscrição
 %h3{ :id => "desistencia" } Desistência e Reembolso
 %p
   As devoluções seguirão os seguintes critérios:
-%table#tabela
-  %tr
+%table#tabela-reservas
+  %tr#topo-tabela
     %th{ :scope => "col"}  Justificativa*
     %th{ :scope => "col"}  Prazo para Solicitação
     %th{ :scope => "col"}  Valor a ser reembolsado
-  %tr
+  %tr#tabela-linhas
     %td Sem justificativa
     %td até 30 (trinta) dias antes do início do congresso
     %td
       %strong 50% do valor pago
-  %tr
+  %tr#tabela-linhas
     %td Problemas de saúde
     %td Sem prazo limite
     %td
       %strong 80% do valor pago
-  %tr
+  %tr#tabela-linhas
     %td Duplicidade de pagamento
     %td Sem prazo limite
     %td
