@@ -4,7 +4,7 @@ title: Contato
 ---
 %h1 Entre em contato conosco
 
-%form#contato{ :action => 'http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho/contacts', :text-align: left; :method => 'post' }
+%form#contato{ :action => 'http://participe.de/events/iv-congresso-internacional-de-direito-do-trabalho/contacts', :method => 'post' }
   %fieldset
     %label Nome:
     %input.text{ :name => 'nome' }
@@ -16,4 +16,4 @@ title: Contato
     %textarea.text{ :name => 'mensagem' }
     %br
     %br
-    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }  
+    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
