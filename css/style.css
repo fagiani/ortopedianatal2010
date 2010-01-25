@@ -1,11 +1,11 @@
-body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #575757; background: url(../images/bg/background.png) repeat-x; }
+body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #575757; }
 h1, h2, h3, h4, h5, h6 { color:#0078b0; }
 h2 { font-size: 22px; }
 p { font-size:16px; margin-bottom:16px; }
 a { color: #f6ae19 }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
-.flowers { height: 600px; min-height: 1100px;  background: url(../images/bg/bg-flowers.png) no-repeat center top; }
+.flowers { min-height: 1800px; background: #dceffe url(../images/bg/bg-flowers.png) no-repeat center top; }
 .header { height: 81px; background: url(../images/bg/bg-header.png) repeat-x top; }
 .header span { color: #ff9c00; font-size: 23px;}
 .header p { font-size: 19px; }
