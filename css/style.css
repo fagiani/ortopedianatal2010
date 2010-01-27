@@ -35,6 +35,9 @@ a { color: #f6ae19 }
 .content #interna li a { color:#f89c00; font-size: 15px; }
 .content #interna li span { color: #575757; list-style-type: none; font-size: 14px;}
 .content #interna li p { color:#575757; font-size:12px; }
+.content #interna .t, .content #interna .s { list-style-type: none; }
+.content #interna .s { margin-left: 15px;}
+.content #interna .ok { list-style-type: disc; margin-left: 15px; }
 .content #interna #local img { padding-right: 20px; clear: both; }
 .content #interna #agencia  img { height: 90px; border-style: solid; border-width: medium; margin-bottom: 10px;}
 
