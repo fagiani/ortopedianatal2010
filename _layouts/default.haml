@@ -12,29 +12,27 @@
     - %w(sifr sifr-config theme).each do |js_file|
       = script_tag("#{js_file}.js")
   %body
-    .everything
-      .flowers
-        .header
-          .container_12
-            #menu.grid_12
-              %ul
-                - site.posts.each do |post|
-                  %li{:class => "#{'current' if (page.title == post.title)}"}
-                    %a{ :href => post.url}= post.title
-            #header-page.grid_12
-              #sides.grid_4.alpha
-                %span
-                  %strong 22 a 24 de abril de 2010
-                  %p Centro de Convenções | Natal-RN   
-              #logo.grid_4
-                %img{ :src => "images/logo-orto.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia" }
-              #sides.grid_4.omega
-                %span#left        
-                  Faltam
-                  %strong#countdown 0 Dias
-                  %p para o evento
-        .content
-          .container_12  
+    #header
+      %div{:class => "container_12 #{layout_type}"}
+        #menu.grid_12
+          %ul
+            - site.posts.each do |post|
+              %li{:class => "#{'current' if (page.title == post.title)}"}
+                %a{ :href => post.url}= post.title
+        #header-page.grid_12
+          #sides.grid_4.alpha
+            %span
+              %strong 22 a 24 de abril de 2010
+              %p Centro de Convenções | Natal-RN   
+          #logo.grid_4
+            %img{ :src => "images/logo-orto.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia" }
+          #sides.grid_4.omega
+            %span#left        
+              Faltam
+              %strong#countdown 0 Dias
+              %p para o evento
+        #container
+          #content
             - if layout_type == 'internal_page'
               #interna.grid_12
                 = content
@@ -46,9 +44,7 @@
               #inscricoes.grid_4
                 %a{ :href => "/inscricao"} 
                   %img{ :src => "images/inscricao.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
-      .footer
-        .container_12
-          #sponsors 
+          #footer.container_12.grid_12
             #promocao.grid_2.alpha
               %h6 PROMOÇÃO
               %a.notext{:href => "http://www.sbot.org.br", :target => "_blank" }
@@ -56,7 +52,7 @@
             #realizacao.grid_2
               %h6 REALIZAÇÃO
               %a.notext{ :href => "http://www.sbot.org.br", :target => "_blank" }
-                %img{ :src => "images/patrocinio/sbotrn logo.jpg", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT/RN", :height => "63px"} 
+                %img{ :src => "images/patrocinio/sbotrn logo.jpg", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT/RN", :height => "63px"}
             #apoio.prefix_1.grid_4
               %h6 APOIO
               %a.notext{ :href => "http://www.natal.rn.gov.br/", :target => "_blank" }
