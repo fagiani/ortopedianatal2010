@@ -1,19 +1,13 @@
-body {
-  font: normal 11px auto Arial, Verdana, Helvetica, sans-serif; margin: 0;
-}
+body { font: normal 11px auto Arial, Verdana, Helvetica, sans-serif; margin: 0; }
 
-a {
-  color: #c75f3e;
-}
+a { color: #f6ae19; }
 
 /* Tabela */
 
-table{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
-table th{ font-size: 13px; font-weight: normal; padding: 8px; background: #e8ecdb;
-                  border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
-table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #faf8ef; }
-table tbody tr:hover td{ background: #f3efe6; color: #575757;} 
-table td.dia { text-align: center; font-weight: bold; }
+table{ font-size: 12px; width: 772px; margin-top: 15px; text-align: center; }
+table .period{ font-size: color:#f89c01; font-weight:bold; text-align: center; }
+table .category { width: 200px; font-weight: bold; }
+table td{ border: 4px solid #DCEFFE; padding: 10px 0px; background-color: #ffffff; }
 
 caption {
   padding: 0 0 5px 0;
