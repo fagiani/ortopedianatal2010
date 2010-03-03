@@ -21,7 +21,7 @@ a { color: #f6ae19 }
 #content #inscricoes { text-align: right; }
 #content p { text-align: justify; }
 
-#footer { background: #ffffff bottom; height: 105px; text-align:center; margin-top: 40px; padding: 20px 0px; }
+#footer { background: #ffffff bottom; height: 105px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
 #footer #apoio img { padding: 0px 12px; height: 69px;}
 
