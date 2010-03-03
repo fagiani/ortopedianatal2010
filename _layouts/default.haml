@@ -31,38 +31,41 @@
               Faltam
               %strong#countdown 0 Dias
               %p para o evento
+    .container_12
+      #content
+        - if layout_type == 'internal_page'
+          #interna.grid_12
+            = content
+        - else
+          #banner.grid_12
+            %img{ :src => "images/banner.jpg", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
+          #content.grid_8
+            = content
+          #inscricoes.grid_4
+            %a{ :href => "/inscricao"} 
+              %img{ :src => "images/inscricao.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
+    .clear
+    #footer
+      .container_12
         #container
-          #content
-            - if layout_type == 'internal_page'
-              #interna.grid_12
-                = content
-            - else
-              #banner.grid_12
-                %img{ :src => "images/banner.jpg", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
-              #content.grid_8
-                = content
-              #inscricoes.grid_4
-                %a{ :href => "/inscricao"} 
-                  %img{ :src => "images/inscricao.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
-          #footer.container_12.grid_12
-            #promocao.grid_2.alpha
-              %h6 PROMOÇÃO
-              %a{:href => "http://www.sbot.org.br", :target => "_blank" }
-                %img{ :src => "images/patrocinio/sbot.png", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT", :height => "63px"}
-            #realizacao.grid_2
-              %h6 REALIZAÇÃO
-              %a{ :href => "http://www.sbot.org.br", :target => "_blank" }
-                %img{ :src => "images/patrocinio/sbotrn logo.jpg", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT/RN", :height => "63px"}
-            #apoio.prefix_1.grid_4
-              %h6 APOIO
-              %a{ :href => "http://www.natal.rn.gov.br/", :target => "_blank" }
-                %img{ :src => "images/patrocinio/prefeitura_natal.jpg", :alt => "Prefeitura do Natal"}
-              %a{ :href => "http://www.rn.gov.br/", :target => "_blank" }
-                %img{ :src => "images/patrocinio/governo_rn.png", :alt => "Governo de Todos"}
-            #organizacao.prefix_1.grid_2.omega
-              %h6 ORGANIZAÇÃO
-              %a{ :href => "http://www.ideiaseventos.com.br/", :target => "_blank" }
-                %img{ :src => "images/patrocinio/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "70px" }
+          #promocao.grid_2.alpha
+            %h6 PROMOÇÃO
+            %a{:href => "http://www.sbot.org.br", :target => "_blank" }
+              %img{ :src => "images/patrocinio/sbot.png", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT", :height => "63px"}
+          #realizacao.grid_2
+            %h6 REALIZAÇÃO
+            %a{ :href => "http://www.sbot.org.br", :target => "_blank" }
+              %img{ :src => "images/patrocinio/sbotrn logo.jpg", :alt => "Sociedade Brasileira de Ortopedia e Traumatologia – SBOT/RN", :height => "63px"}
+          #apoio.prefix_1.grid_4
+            %h6 APOIO
+            %a{ :href => "http://www.natal.rn.gov.br/", :target => "_blank" }
+              %img{ :src => "images/patrocinio/prefeitura_natal.jpg", :alt => "Prefeitura do Natal"}
+            %a{ :href => "http://www.rn.gov.br/", :target => "_blank" }
+              %img{ :src => "images/patrocinio/governo_rn.png", :alt => "Governo de Todos"}
+          #organizacao.prefix_1.grid_2.omega
+            %h6 ORGANIZAÇÃO
+            %a{ :href => "http://www.ideiaseventos.com.br/", :target => "_blank" }
+              %img{ :src => "images/patrocinio/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "70px" }
     :javascript
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
