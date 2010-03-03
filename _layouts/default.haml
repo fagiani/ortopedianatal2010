@@ -68,7 +68,7 @@
               %img{ :src => "images/patrocinio/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "70px" }
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
       - %w{ sifr sifr-config theme jquery.validate localization/messages_ptbr }.each do |js|
-      	= script_tag("#{js}.js")
+        = script_tag("#{js}.js")
       - if variable(:javascript)
         %script{:type => 'text/javascript'}
           = variable(:javascript)
