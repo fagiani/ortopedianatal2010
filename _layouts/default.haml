@@ -8,9 +8,9 @@
     %meta{ :name => "keywords", :content => "XIV, congresso, norte-nordeste, ortopedia, traumatologia" }
     - %w(reset text 960 style sifr).each do |css_file|
       = css_tag("#{css_file}.css")
-    / [if IE]<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+    / [if IE]<link rel="stylesheet" href="css/png_fix.css" type="text/css" media="screen" />
     / [if IE 7]<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
-    / [if IE 6]<link rel="stylesheet" href="css/png_fix.css" type="text/css" media="screen" />
+    / [if IE 6]<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen" />
   %body
     #header
       %div{:class => "container_12 #{layout_type}"}
@@ -25,7 +25,7 @@
               %strong 22 a 24 de abril de 2010
               %p Centro de Convenções | Natal-RN   
           #logo.grid_4
-            %img{ :src => "images/logo-orto.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia" }
+            %img{ :src => "/images/logo-orto.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia" }
           #sides.grid_4.omega
             %span#left        
               Faltam
@@ -43,7 +43,7 @@
             = content
           #inscricoes.grid_4
             %a{ :href => "/inscricao"} 
-              %img{ :src => "images/inscricao.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
+              %img{ :src => "/images/inscricao.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia"}
     .clear
     #footer
       .container_12
