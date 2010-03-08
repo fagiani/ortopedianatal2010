@@ -21,7 +21,7 @@ a { color: #f6ae19 }
 #content #inscricoes { text-align: right; }
 #content p { text-align: justify; }
 
-#footer { background: #ffffff bottom; height: 105px; text-align:center; padding: 20px 0px; margin-top: 40px; }
+#footer { background: #ffffff bottom; height: 210px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
 #footer #apoio img { padding: 0px 12px; height: 69px;}
 
@@ -89,3 +89,11 @@ a { color: #f6ae19 }
 #contato fieldset .text { width: 400px; padding: 5px; background: #ffffff; border: 0px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #0078b0; color: #ffffff; border: 1px solid #0078b0; font-size: 20px; font-weight: bold; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+
+/************/
+
+#patrocinio img {
+	height: 60px;
+	vertical-align:top;
+	padding-right: 10px;
+	}

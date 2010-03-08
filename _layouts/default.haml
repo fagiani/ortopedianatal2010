@@ -66,6 +66,19 @@
             %h6 ORGANIZAÇÃO
             %a{ :href => "http://www.ideiaseventos.com.br/", :target => "_blank" }
               %img{ :src => "images/patrocinio/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "70px" }
+          #patrocinio.grid_12.alpha.omega{:style => 'margin-top: 20px'}
+            %h6 PATROCÍNIO
+            %a(href = "http://www.unimed.com.br/")
+              %img(src = "images/patrocinio/logo-unimed.jpg" alt = "Unimed - Natal") 
+            %a(href = "http://www.ecomed.com.br/")
+              %img(src = "images/patrocinio/logo-ecomed.gif" alt = "ecomed") 
+            %a(href = "http://www.biomecanica.com.br/")
+              %img(src = "images/patrocinio/logo-biomecanica.gif" alt = "Biomecanica") 
+            %img(src = "images/patrocinio/logo-opera.gif" alt = "Opera Materiais Cirúrgicos") 
+            %a(href = "http://www.ortoplan.com.br/")
+              %img(src = "images/patrocinio/logo-ortoplan.gif" alt = "Ortoplan") 
+            %a(href = "http://www.medicalshopdf.com.br/")
+            %img(src = "images/patrocinio/logo-medicalshop.gif" alt = "Medical Shop") 
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
       - %w{ sifr-config theme sifr jquery.validate localization/messages_ptbr }.each do |js|
         = script_tag("#{js}.js")
