@@ -31,6 +31,7 @@
               Faltam
               %strong#countdown 0 Dias
               %p para o evento
+            %script{ :src => 'js/theme.js', :type => 'text/javascript' }
     #container.container_12
       #content
         - if layout_type == 'internal_page'
@@ -68,7 +69,7 @@
               %img{ :src => "images/patrocinio/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "70px" }
           #patrocinio.grid_12.alpha.omega{:style => 'margin-top: 20px'}
             %h6 PATROCÍNIO
-            %a(href = "http://www.unimed.com.br/")
+            %a(href = "http://www.unimednatal.com.br/")
               %img(src = "images/patrocinio/logo-unimed.jpg" alt = "Unimed - Natal") 
             %a(href = "http://www.ecomed.com.br/")
               %img(src = "images/patrocinio/logo-ecomed.gif" alt = "ecomed") 
@@ -78,9 +79,11 @@
             %a(href = "http://www.ortoplan.com.br/")
               %img(src = "images/patrocinio/logo-ortoplan.gif" alt = "Ortoplan") 
             %a(href = "http://www.medicalshopdf.com.br/")
-            %img(src = "images/patrocinio/logo-medicalshop.gif" alt = "Medical Shop") 
+              %img(src = "images/patrocinio/logo-medicalshop.gif" alt = "Medical Shop") 
+            %a(href = "http://www.hospitaldocoracao.com.br/")
+              %img(src = "images/patrocinio/logo-hc.gif" alt = "Hospital do Coração")
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
-      - %w{ sifr-config theme sifr jquery.validate localization/messages_ptbr }.each do |js|
+      - %w{ sifr-config sifr jquery.validate localization/messages_ptbr }.each do |js|
         = script_tag("#{js}.js")
       - if variable(:javascript)
         %script{:type => 'text/javascript'}
