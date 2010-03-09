@@ -21,9 +21,21 @@ a { color: #f6ae19 }
 #content #inscricoes { text-align: right; }
 #content p { text-align: justify; }
 
+#content #patrocinadores ul li { text-align: center; display: inline-table; padding-right: 5px; margin-bottom: 10px; }
+#content #patrocinadores li span { color: #898989; font-size: 12px; } 
+#content #patrocinadores img { border: 1px solid #f89c4f; background: #ffffff; padding: 3px; }
+#content #patrocinadores img#biomecanica { padding: 5px; }
+#content #patrocinadores img#opera, #content #patrocinadores img#ortoplan { padding: 20px; }
+#content #patrocinadores img#medicalshop { padding: 11px; }
+#content #patrocinadores img#ecomed { padding: 15px; }
+#content #patrocinadores img#hc { padding: 24px; }
+
 #footer { background: #ffffff bottom; height: 210px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
 #footer #apoio img { padding: 0px 12px; height: 69px;}
+#footer #patrocinio h6 { margin-top: 10px; }
+#footer #patrocinio img { height: 45px; vertical-align:top; padding-right: 10px; }
+
 
 /* Pages */
 #content #interna p, .content #interna strong { font-size: 14px !important; line-height: 16px !important; }
@@ -42,41 +54,20 @@ a { color: #f6ae19 }
 
 /* Tabelas */
 
-#tabela-reservas{
-	width: 772px;
-	margin-top: 15px;
-	font-size:12px;
-	text-align:center;
-}
+#tabela-reservas{ width: 772px; margin-top: 15px; font-size:12px; text-align:center; }
 
-#topo-tabela{
-	color:#f89c01;
-	font-weight:bold;
-        text-align: center ;
-}
+#topo-tabela{ color:#f89c01; font-weight:bold; text-align: center; }
 
-.col-a{
-	width: 115px;
-	font-weight:bold;
-}
+.col-a{	width: 115px; font-weight:bold; }
 
-.col-b{
-	width: 116px;
-}
+.col-b{ width: 116px; }
 
-.col-c{
-        margin-left: 10px;
-}
+.col-c{ margin-left: 10px;} 
 
-.half{
-        width: 256px;
-}
+.half{ width: 256px; }
 
 #tabela-linhas td .col-c {padding: 10px 10px;}
-#tabela-linhas td{
-	border: 4px solid #DCEFFE;
-        background-color: #ffffff;
-}
+#tabela-linhas td { border: 4px solid #DCEFFE; background-color: #ffffff; }
 
 #tabela-reservas td{ padding: 10px 0px; }
 
@@ -90,10 +81,3 @@ a { color: #f6ae19 }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #0078b0; color: #ffffff; border: 1px solid #0078b0; font-size: 20px; font-weight: bold; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
 
-/************/
-
-#patrocinio img {
-	height: 60px;
-	vertical-align:top;
-	padding-right: 10px;
-	}
