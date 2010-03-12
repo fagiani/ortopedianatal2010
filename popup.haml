@@ -1,0 +1,16 @@
+---
+layout: popup 
+title: Popup
+---
+%img{ :src => "images/logo-orto.png", :alt => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia", :style => "text-align: right"}
+%p
+  Confira
+  %a{ :href => '#', :id => 'returnlink'}
+    aqui
+  os convidados confirmados para o XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia. 
+:javascript
+  $('#returnlink').click(function(){
+    window.opener.open("programacao#convidados", '_self');
+    window.close();
+  });
+  
