@@ -26,6 +26,7 @@ a { color: #f6ae19 }
 #content #patrocinadores img { border: 1px solid #f89c4f; background: #ffffff; padding: 7px; }
 #content #patrocinadores img#biomecanica { padding: 9px; }
 #content #patrocinadores img#opera, #content #patrocinadores img#ortoplan { padding: 20px; }
+#content #patrocinadores img#sanofi { padding: 26.5px; }
 #content #patrocinadores img#medicalshop { padding: 14.5px; }
 #content #patrocinadores img#unicred { padding: 26px;}
 #content #patrocinadores img#ecomed, #content #patrocinadores img#mol{ padding: 15px; }
@@ -33,11 +34,11 @@ a { color: #f6ae19 }
 #content #patrocinadores img#saolucas { padding: 20.5px; }
 #content #patrocinadores img#hc { padding: 27.5px; }
 
-#footer { background: #ffffff bottom; height: 210px; text-align:center; padding: 20px 0px; margin-top: 40px; }
+#footer { background: #ffffff bottom; height: 250px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
 #footer #apoio img { padding: 0px 12px; height: 69px;}
 #footer #patrocinio h6 { margin-top: 10px; }
-#footer #patrocinio img { height: 45px; vertical-align:top; padding-right: 10px; }
+#footer #patrocinio img { height: 43px; vertical-align:top; padding-right: 10px; padding-bottom: 10px; }
 
 
 /* Pages */
