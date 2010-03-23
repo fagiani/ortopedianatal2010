@@ -1,2 +1,4 @@
 #container { padding-top: 240px; }
 #content #patrocinadores ul li { list-style: none; margin-bottom: 10px; }
+#content #patrocinadores ul li { display: table-cell; display: inline-table; display: inline-block; }
+#content #patrocinadores ul li { _display: inline; }
