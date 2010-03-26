@@ -20,6 +20,7 @@ a { color: #f6ae19 }
 #header p { font-size: 19px; }
 #menu ul { padding-top: 25px;}
 #menu ul li { display: inline; padding-right: 8px;}
+#menu ul li.sIFR-replaced { padding-right: 2px;}
 #menu li a { font-size: 11px; color: #0078B0; text-transform: uppercase; text-decoration: none; }
 #header-page { padding-bottom: 40px; text-align: center; }
 #header-page #sides { padding-top: 114px; }
