@@ -1,6 +1,7 @@
 ---
 layout: default 
 title: Programação
+javascript_imports: jquery.fancybox-1.3.1.pack guests
 ---
 %h1 Programação Científica - Preliminar
 
@@ -417,100 +418,39 @@ title: Programação
 %h3{ :id => "convidados"}
   %u Convidados Confirmados
 %p
-  %ul
-    %li.t.s
-      %img{ :title => "Bandeira de BA", :src => "images/flags/BA.gif", :alt => "Bandeira de BA"}
-      %span Dr. Adalberto Visco /BA
-    %li.t.s
-      %img{ :title => "Bandeira de CE", :src => "images/flags/CE.gif", :alt => "Bandeira de CE"}
-      %span Dr. Adson Sá /CE
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. Anderson Antonio da Costa /RJ
-    %li.t.s
-      %img{ :title => "Bandeira do BA", :src => "images/flags/BA.gif", :alt => "Bandeira do BA"}
-      %span Dr. Antonio Marcos Ferracini /BA
-    %li.t.s
-      %img{ :title => "Bandeira do BA", :src => "images/flags/BA.gif", :alt => "Bandeira do BA"}
-      %span Dr. Armando Teixeira /BA
-    %li.t.s
-      %img{ :title => "Bandeira de AM", :src => "images/flags/AM.gif", :alt => "Bandeira de AM"}
-      %span Dr. Chang Chia Po /AM
-    %li.t.s
-      %img{ :title => "Bandeira de SP", :src => "images/flags/SP.gif", :alt => "Bandeira de SP"}
-      %span Dr. Claúdio Santili /SP
-    %li.t.s
-      %img{ :title => "Bandeira do PE", :src => "images/flags/PE.gif", :alt => "Bandeira do PE"}
-      %span Dr. Dilamar Pinto /PE
-    %li.t.s
-      %img{ :title => "Bandeira do RN", :src => "images/flags/RN.gif", :alt => "Bandeira do RN"}
-      %span Dr. Elson Miranda /RN
-    %li.t.s
-      %img{ :title => "Bandeira do PR", :src => "images/flags/PR.gif", :alt => "Bandeira do PR"}
-      %span Dr. Edilson Thiele /PR
-    %li.t.s
-      %img{ :title => "Bandeira de SP", :src => "images/flags/SP.gif", :alt => "Bandeira de SP"}
-      %span Dr. Edimilson Takata /SP
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. Geraldo Motta /RJ
-    %li.t.s
-      %img{ :title => "Bandeira do MG", :src => "images/flags/MG.gif", :alt => "Bandeira do MG"}
-      %span Dr. Ivan Chankkour /MG
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. Hugo Cobra /RJ
-    //%li.t.s
-    //  %img{ :title => "Bandeira de BA", :src => "images/flags/BA.gif", :alt => "Bandeira de BA"}
-    //  %span Dr. Humberto Lima /BA
-    %li.t.s
-      %img{ :title => "Bandeira do BA", :src => "images/flags/BA.gif", :alt => "Bandeira do BA"}
-      %span Dr. Jomar Souza /BA
-    %li.t.s
-      %img{ :title => "Bandeira do SP", :src => "images/flags/SP.gif", :alt => "Bandeira do SP"}
-      %span Dr. José Eid /SP
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. José Luís Runco /RJ
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. José Luís Perez /RJ
-    %li.t.s
-      %img{ :title => "Bandeira de SP", :src => "images/flags/SP.gif", :alt => "Bandeira de SP"}
-      %span Dr. Marcelo Mercadante /SP
-    %li.t.s
-      %img{ :title => "Bandeira de PE", :src => "images/flags/PE.gif", :alt => "Bandeira de PE"}
-      %span Dr. Marcelo Krause /PE
-    %li.t.s
-      %img{ :title => "Bandeira de BA", :src => "images/flags/BA.gif", :alt => "Bandeira de BA"}
-      %span Dr. Matheus Lemos Azi /BA
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. Paulo Barbosa /RJ
-    %li.t.s
-      %img{ :title => "Bandeira de MG", :src => "images/flags/MG.gif", :alt => "Bandeira de MG"}
-      %span Dr. Paulo Randall /MG
-    %li.t.s
-      %img{ :title => "Bandeira de DF", :src => "images/flags/DF.gif", :alt => "Bandeira de DF"}
-      %span Dr. Roberto D'ávilla /DF
-    %li.t.s
-      %img{ :title => "Bandeira de PE", :src => "images/flags/PE.gif", :alt => "Bandeira de PE"}
-      %span Dr. Romeu Krause /PE
-    %li.t.s
-      %img{ :title => "Bandeira de CE", :src => "images/flags/CE.gif", :alt => "Bandeira de CE"}
-      %span Dr. Ronaldo Silva /CE
-    %li.t.s
-      %img{ :title => "Bandeira do RJ", :src => "images/flags/RJ.gif", :alt => "Bandeira do RJ"}
-      %span Dr. Sérgio Delmonte /RJ
-    %li.t.s
-      %img{ :title => "Bandeira do RN", :src => "images/flags/RN.gif", :alt => "Bandeira do RN"}
-      %span Dr. Valmar Martins /RN
-    %li.t.s
-      %img{ :title => "Bandeira de BA", :src => "images/flags/BA.gif", :alt => "Bandeira de BA"}
-      %span Dr. Wilson Vasconcelos Neves Filho /BA
+  %ul#guest_list
+    = guest_detail('Dr. Adalberto Visco', 'adalberto', 'BA', [])
+    = guest_detail('Dr. Adson Sá', 'adson', 'CE', [])
+    = guest_detail('Dr. Anderson Antonio da Costa', 'anderson', 'RJ', ['Membro da SBOT', 'Membro da SBCJ', 'Responsável pelo serciço de cirurgia do joelho do Hospital Naval Marcilio Dias'])
+    = guest_detail('Dr. Antonio Marcos Ferracini', 'antonio', 'BA', ['Mestre em Ortopedia pela UNIFESP', 'Professor Assistente da Universidade Federal da Bahia', 'Chefe do Serviço de Ortopedia do Hospital São Rafaell – Salvador/Bahia'])
+    = guest_detail('Dr. Armando Teixeira', 'armando', 'BA', [])
+    = guest_detail('Dr. Chang Chia Po', 'chang', 'AM', [])
+    = guest_detail('Dr. Cláudio Santili', 'claudio', 'SP', [])
+    = guest_detail('Dr. Dilmar Pinto', 'dilmar', 'PE', [])
+    = guest_detail('Dr. Elson Miranda', 'elson', 'RN', [])
+    = guest_detail('Dr. Edilson Thiele', 'edilson', 'PR', [])
+    = guest_detail('Dr. Edimilson Takata', 'edimilson', 'SP', [])
+    = guest_detail('Dr. Geraldo Motta', 'geraldo', 'RJ', [])
+    = guest_detail('Dr. Ivan Chankkour', 'ivan', 'MG', [])
+    = guest_detail('Dr. Hugo Cobra', 'hugo', 'RJ', [])
+    //= guest_detail('Dr. Humberto Lima', 'humberto', 'BA', [])
+    = guest_detail('Dr. Jomar Souza', 'jomar', 'BA', [])
+    = guest_detail('Dr. José Eid', 'eid', 'SP', [])
+    = guest_detail('Dr. José Luís Runco', 'runco', 'RJ', [])
+    = guest_detail('Dr. José Luís Perez', 'perez', 'RJ', [])
+    = guest_detail('Dr. Marcelo Mercadante', 'mercadante', 'SP', ['STAFF do serviço de ortopedia do Hospital Universitário Clementino Fraga Filho (UFRJ)', 'Professor Adjunto do Depto Ortopedia e Traumatologia da Faculdade de Ciências Médicas da Santa Casa de São Paulo', 'Médico Chefe de Clínica Adjunto do Departamento de Ortopedia e Traumatologia da Santa Casa de São Paulo'])
+    = guest_detail('Dr. Marcelo Krause', 'mkrause', 'PE', [])
+    = guest_detail('Dr. Matheus Lemos Azi', 'azi', 'BA', ['Doutor em Ortopedia pela FMRP-USP', 'Coordenador Grupo do Trauma Hospital Manoel Victorino – Salvador – Bahia'], 'azi.jpg')
+    = guest_detail('Dr. Paulo Barbosa', 'barbosa', 'RJ', [])
+    = guest_detail('Dr. Paulo Randall', 'randall', 'MG', [])
+    = guest_detail("Dr. Roberto D'ávilla", 'davilla', 'DF', [])
+    = guest_detail('Dr. Romeu Krause', 'rkrause', 'PE', [])
+    = guest_detail('Dr. Ronaldo Silva', 'ronaldo', 'CE', [])
+    = guest_detail('Dr. Sérgio Delmonte', 'delmonte', 'RJ', [])
+    = guest_detail('Dr. Valmar Martins', 'valmar', 'RN', [])
+    = guest_detail('Dr. Wilson Vasconcelos Neves Filho', 'wilson', 'BA', ['Médico assistente do serviço de joelho do Hospital São Rafael', 'Mestrando em ortopedia pela ALRM - Associação Lyonesa de Reabilitação Motora', 'Membro da SBOT', 'Membro da SBCJ', 'Membro da SFA - Sociedade Francesa de Artroscopia'])
 
-    %li.t.s &nbsp; 
-    %li.t.s
-      %span Dr. Luís Carlos Peres
-    %li.t.s
-      %span Dr. Raul Lins
+    %li &nbsp; 
+
+    = guest_detail('Dr. Luís Carlos Peres', 'peres', nil, [])
+    = guest_detail('Dr. Raul Lins', 'raul', nil, [])

@@ -5,6 +5,16 @@ p { font-size:16px; margin-bottom:16px; }
 a { color: #f6ae19 }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
+.guest_detail {display:none;}
+#guest_list li { list-style-type: none !important;}
+#guest_list li img {margin-right: 3px;}
+
+#guest_list .s { margin-left: 15px;}
+#fancybox-wrap, #fancybox-inner {width:500px !important;}
+#fancybox-inner ul {float:left; font-size:13px; width:60%; margin-left:30px;}
+#fancybox-inner li.name {font-size:28px; font-weight:bold; list-style:none; margin-bottom:10px; margin-left:-15px;}
+#fancybox-inner img.photo {float:left; border:8px solid #D4D4D4;}
+
 #header { height: 81px; background: url(../images/bg/bg-header.png) repeat-x top; }
 #header span { color: #ff9c00; font-size: 23px;}
 #header p { font-size: 19px; }
