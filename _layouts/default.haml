@@ -6,7 +6,7 @@
     %meta{ :name => "author", :content => "Participe.de - Tink!" }
     %meta{ :name => "description", :content => "XIV Congresso Norte-Nordeste de Ortopedia e Traumatologia" }
     %meta{ :name => "keywords", :content => "XIV, congresso, norte-nordeste, ortopedia, traumatologia" }
-    - %w(reset text 960 style sifr).each do |css_file|
+    - %w(reset text 960 style sifr jquery.fancybox-1.3.1).each do |css_file|
       = css_tag("#{css_file}.css")
     / [if IE]<link rel="stylesheet" href="css/png_fix.css" type="text/css" media="screen" />
     / [if IE 7]<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
@@ -99,11 +99,14 @@
             %img(src = "images/patrocinio/logo-sectur2.jpg" alt = "SECTUR")
 
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
-      - %w{ sifr-config sifr jquery.validate localization/messages_ptbr }.each do |js|
-        = script_tag("#{js}.js")
-      - if variable(:javascript)
-        %script{:type => 'text/javascript'}
-          = variable(:javascript)
+    - %w{sifr  sifr-config jquery.validate localization/messages_ptbr }.each do |js|
+      = script_tag("#{js}.js")
+    - if variable(:javascript_imports)
+      - variable(:javascript_imports).split(' ').each do |js|
+        %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
+    - if variable(:javascript)
+      %script{:type => 'text/javascript'}
+        = variable(:javascript)
 
     :javascript
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
