@@ -9,8 +9,6 @@ a { color: #f6ae19 }
 #guest_list li { list-style-type: none !important;}
 #content #interna #guest_list li img {margin-right: 8px;}
 #content #interna #guest_list li a { color: #898989; }
-#content #interna #guest_list li #left { padding-left: 26px; }
-
 
 #guest_list .s { margin-left: 15px;}
 #fancybox-wrap, #fancybox-inner {width:500px !important;}
