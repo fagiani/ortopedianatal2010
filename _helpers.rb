@@ -24,7 +24,11 @@ module Helpers
     end
     name_and_flag = name
     name_and_flag += ' / ' + state unless state.blank?
-    result += content_tag('a', name_and_flag, :href => "#guest_#{id}", :class => 'guest_name')
+    if items.empty?
+      result += content_tag('span', name_and_flag)
+    else
+      result += content_tag('a', name_and_flag, :href => "#guest_#{id}", :class => 'guest_name')
+    end
 
     detail_result = ''
     detail_result += tag('img', :src => "images/guests/#{image}", :class => 'photo')
