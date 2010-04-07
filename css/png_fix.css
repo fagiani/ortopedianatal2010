@@ -8,3 +8,5 @@
     this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
   );
 }
+
+#menu ul li.sIFR-replaced { padding-right: 10px;}
