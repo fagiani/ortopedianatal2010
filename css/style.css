@@ -75,23 +75,27 @@ a { color: #f6ae19 }
 
 #tabela-reservas{ width: 772px; margin-top: 15px; font-size:12px; text-align:center; }
 
-#topo-tabela{ color:#f89c01; font-weight:bold; text-align: center; }
+#topo-tabela{ color:#f89c01; font-weight:bold; text-align: center; font-size: 14px; }
 
-.col-a{	width: 115px; font-weight:bold; }
+.col-a{	width: 115px; font-weight:bold; padding: 10px; }
 
 .col-b{ width: 116px; }
 
 .col-c{ margin-left: 10px;} 
 
+.half, .all { text-align: left; }
+#tabela-reservas td.half, #tabela-reservas td.all {  padding-top: 10px; }
 .half{ width: 256px; }
 .all{ width: 655px; }
+.left { text-align: left; }
 
 #tabela-linhas td .col-c {padding: 10px 10px;}
 #tabela-linhas td { border: 4px solid #DCEFFE; background-color: #ffffff; }
 
-#tabela-reservas td{ padding: 10px 0px; }
+#content #interna #tabela-reservas td p, #content #interna #tabela-reservas td p strong { font-size: 12px !important; line-height: 20px !important; }
 
-
+#content #interna #tabela-reservas td p { padding: 0px 10px;}
+#content #interna #tabela-reservas td p span { padding-left: 10px; }
 /* Contato */
 #contato { width: 50%; }
 #contato fieldset { border: none; }
