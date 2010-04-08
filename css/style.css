@@ -83,10 +83,16 @@ a { color: #f6ae19 }
 
 .col-c{ margin-left: 10px;} 
 
+.espaco { padding: 10px; }
+
 .half, .all { text-align: left; }
+
 #tabela-reservas td.half, #tabela-reservas td.all {  padding-top: 10px; }
+
 .half{ width: 256px; }
+
 .all{ width: 655px; }
+
 .left { text-align: left; }
 
 #tabela-linhas td .col-c {padding: 10px 10px;}
