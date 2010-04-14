@@ -73,7 +73,7 @@ a { color: #f6ae19 }
 
 /* Tabelas */
 
-#tabela-reservas{ width: 772px; margin-top: 15px; font-size:12px; text-align:center; }
+#tabela-reservas{ width: 900px; margin-top: 15px; font-size:12px; text-align:center; }
 
 #topo-tabela{ color:#f89c01; font-weight:bold; text-align: center; font-size: 14px; }
 
@@ -85,13 +85,11 @@ a { color: #f6ae19 }
 
 .espaco { padding: 10px; }
 
-.half, .all { text-align: left; }
+.all { width: 670px; }
 
 #tabela-reservas td.half, #tabela-reservas td.all {  padding-top: 10px; }
 
-.half{ width: 256px; }
-
-.all{ width: 655px; }
+.tri{ width: 240px; }
 
 .left { text-align: left; }
 
