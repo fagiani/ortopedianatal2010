@@ -5,6 +5,8 @@ p { font-size:16px; margin-bottom:16px; }
 a { color: #f6ae19 }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
+#exposicao p span { font-size: 22px; color: #0078b0; font-weight: bold; }
+#stands p { padding-left: 20px;}
 .guest_detail {display:none;}
 #guest_list li { list-style-type: none !important;}
 #content #interna #guest_list li img {margin-right: 8px;}
