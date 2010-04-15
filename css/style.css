@@ -42,13 +42,14 @@ a { color: #f6ae19 }
 #content #patrocinadores img#medicalshop { padding: 14.5px; }
 #content #patrocinadores img#sectur { padding: 4px; }
 #content #patrocinadores img#unicred { padding: 26px;}
-#content #patrocinadores img#papi, #content #patrocinadores img#farmasa, #content #patrocinadores img#ecomed, #content #patrocinadores img#mol, #content #patrocinadores img#novartis { padding: 15px; }
+#content #patrocinadores img#papi, #content #patrocinadores img#farmasa, #content #patrocinadores img#ecomed, #content #patrocinadores img#mol, #content #patrocinadores img#novartis, #content #patrocinadores img#ortorio { padding: 15px; }
 #content #patrocinadores img#memorial { padding: 8.5px; }
 #content #patrocinadores img#cremern { padding: 7.5px; }
 #content #patrocinadores img#cardionuclear { padding: 25px; }
 #content #patrocinadores img#fqm { padding: 17px; }
 #content #patrocinadores img#saolucas { padding: 20.5px; }
 #content #patrocinadores img#hc { padding: 27.5px; }
+#content #patrocinadores img#hospmedica { padding-top: 15px; padding-bottom: 15px; }
 
 #footer { background: #ffffff bottom; height: 250px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
