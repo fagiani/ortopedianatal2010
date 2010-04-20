@@ -58,7 +58,7 @@ a { color: #f6ae19 }
 
 #footer { background: #ffffff bottom; height: 250px; text-align:center; padding: 20px 0px; margin-top: 40px; }
 #footer #promocao { margin-left: 10px;  }
-#footer #apoio img { padding: 0px 12px; height: 69px;}
+#footer #apoio img { padding: 0px; height: 68px;}
 #footer #patrocinio h6 { margin-top: 10px; }
 #footer #patrocinio img { height: 43px; vertical-align:top; padding-right: 10px; padding-bottom: 10px; }
 
